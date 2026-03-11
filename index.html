@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(120deg, #89f7fe, #66a6ff);
+            color: #333;
+        }
+
+        header {
+            background: rgba(0,0,0,0.7);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 12px 25px;
+            border: none;
+            background: #ff7a18;
+            color: white;
+            font-size: 1rem;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+
+        section {
+            padding: 60px 20px;
+            background: white;
+            margin: 20px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0,0,0,0.8);
+            color: white;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>My Website</h2>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Hello, I'm Pulkit 👋</h1>
+        <p>A simple responsive website made with HTML and CSS. You can use this for your portfolio, projects, or demos.</p>
+        <button class="btn">Explore</button>
+    </div>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a developer passionate about building web applications and learning new technologies.
+            This is a basic website template that can be customized for portfolios, college projects,
+            or product landing pages.
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: example@email.com</p>
+        <p>Phone: +91 00000 00000</p>
+    </section>
+
+    <footer>
+        © 2026 My Website | Built with ❤
+    </footer>
+
+</body>
+</html>
